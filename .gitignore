@@ -1,0 +1,19 @@
+# .gitignore dosyasının içeriği
+
+# En önemlisi: Sırları ve API anahtarlarını içeren .env dosyası
+.env
+
+# Python'un sanal ortam (virtual environment) klasörü
+# (İçinde binlerce dosya vardır ve ASLA paylaşılmaz)
+venv/
+.venv/
+
+# PyCharm'ın proje ayar dosyaları
+.idea/
+
+# Python'un oluşturduğu geçici cache dosyaları
+__pycache__/
+*.pyc
+
+# Ürettiğimiz Excel dosyası (Genelde çıktı dosyaları yüklenmez)
+*.xlsx
